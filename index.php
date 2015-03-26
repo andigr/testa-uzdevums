@@ -96,8 +96,7 @@ $mysqli->close();
 <script src="assets/jquery.autocomplete.js"></script>
 <script>
 var cities = $('#json-container').data('json');
-var countries = cities;
-$('#city').autocomplete({lookup: countries});
+$('#city').autocomplete({lookup: cities});
 </script>
 </body>
 </html>
